@@ -1,0 +1,61 @@
+#main-board {
+    border: 1px solid black;
+}
+
+#head {
+    position: relative;
+    height: 70px;
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#logo-text {
+    position: absolute;
+    left: 8px;
+    top: 20px;
+}
+
+#title {
+    position: absolute;
+    left: 80px;
+    top: 30px;
+}
+
+#logout {
+    border: 1px solid black;
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    width: 100px;
+    text-align: center;
+
+}
+
+#logout a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+}
+
+.menu a {
+    display: inline-block;
+    width: 100px;
+    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.body {
+    padding: 5px;
+    margin: 10px;
+}
