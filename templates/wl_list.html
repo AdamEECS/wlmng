@@ -1,0 +1,28 @@
+{% extends 'board.html' %}
+{% block body %}
+<table frame="box" rules="all" cellpadding="5">
+    <tr>
+        <th>客户编号</th>
+        <th>公司名称</th>
+        <th>公司网站</th>
+        <th>联系人</th>
+        <th>续存状态</th>
+        <th>级别</th>
+        <th>服务类型</th>
+        <th>所在地</th>
+    </tr>
+    {% for m in ms %}
+        <tr>
+            <td>{{ m.mt4_id }}</td>
+            <td>{{ m.company }}</td>
+            <td>{{ m.url }}</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>{{ m.company_address }}</td>
+        </tr>
+    {% endfor %}
+</table>
+{% endblock %}
+
